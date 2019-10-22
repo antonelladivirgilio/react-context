@@ -9,11 +9,8 @@ import { LanguageContext } from "./context/LanguageContext";
 
 // Languages
 import en from "./locales/en.json";
-import es from "./locales/es.json";
-import ja from "./locales/ja.json";
 
 const App = () => {
-  const locales = { es, en, ja };
   const [currentLocale, setCurrentLocale] = useState(en);
 
   return (
