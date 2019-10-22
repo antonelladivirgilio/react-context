@@ -17,6 +17,7 @@ const ContentPanel = () => {
       {currentLocale.text}
       <button onClick={handleLanguageChange(en)}>ingles</button>
       <button onClick={handleLanguageChange(es)}>español</button>
+      <button onClick={handleLanguageChange(ja)}>japonés</button>
     </>
   );
 };
